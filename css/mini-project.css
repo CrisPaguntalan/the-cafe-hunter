@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "bukhari script";
+    src: url("../fonts/BukhariScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono - Italic";
+    src: url("../fonts/RobotoMono-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Robot Mono";
+    src: url("../fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url("../images/cafe-by-michal-parzuchowski-ItaV89TNkks-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: "bukhari script", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(42, 29, 21);
+    color: rgb(203, 142, 68);
+}
+
+h1 {
+    font-size: 8rem;
+    margin-top: 2rem;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar a, header a {
+    text-decoration: none;
+    color: rgb(203, 142, 68);
+    font-size: 2rem;
+}
+
+.navbar a:hover, header a:hover {
+    color: rgb(203, 142, 68);
+    text-decoration: underline;
+}
+
+.back-home {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.navbar button {
+    margin: 5px;
+    border: none;
+}
+
+.navbar button:hover {
+    border: dashed 2px rgb(203, 142, 68);
+}
+
+.box-red {
+    background-color: red;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+/* Contact Form Page */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(203, 142, 68);
+    opacity: 70%;
+    width: 600px;
+    height: 850px;
+    margin: 2rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.contact-form {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    padding: 2rem;
+}
+
+label {
+    font-size: 20px;
+}
+
+.full-name input, .email input {
+    width: 100%;
+}
+
+.message input {
+    width: 560px;
+    height: 300px;
+    padding: 10px 0 300px 0;
+}
+
+.button_send button {
+    margin: 30px 250px;
+    background-color: rgb(42, 29, 21);
+    color: rgb(203, 142, 68);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+/* Not Yet Available */
+
+.not-yet-available {
+    margin: 2rem 5rem;
+    color: rgb(203, 142, 68);
+    font-size: 30px;
+}
+
+.not-yet-available h2 {
+    font-size: 55px;
+}
