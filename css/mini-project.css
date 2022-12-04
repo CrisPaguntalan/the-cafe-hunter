@@ -13,6 +13,11 @@
     src: url("../fonts/RobotoMono-VariableFont_wght.ttf");
 }
 
+@font-face {
+    font-family: "Alata";
+    src: url("../fonts/Alata-Regular.ttf");
+}
+
 
 * {
     margin: 0;
@@ -49,12 +54,14 @@ h1 {
 li {
     list-style: none;
     padding: 1rem;
+    font-family: "Alata", sans-serif;
+    font-size: 1.5rem;
 }
 
 .navbar a, header a {
     text-decoration: none;
     color: rgb(203, 142, 68);
-    font-size: 2rem;
+    
 }
 
 .navbar a:hover, header a:hover {
@@ -62,18 +69,16 @@ li {
     text-decoration: underline;
 }
 
-.back-home {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 .navbar button {
-    margin: 5px;
-    border: none;
+    padding: 1rem;
+    font-family: "Alata", sans-serif;
+    font-size: 1.5rem;
+    color: rgb(203, 142, 68);
 }
 
 .navbar button:hover {
-    border: dashed 2px rgb(203, 142, 68);
+    color: rgb(203, 142, 68);
+    text-decoration: underline;
 }
 
 .box-red {
@@ -90,24 +95,24 @@ img {
 .form-container {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(203, 142, 68); */
-    background-image: url("../images/paper-image.png");
+    background-color: rgb(203, 142, 68);
     background-size: contain;
     width: 736px;
-    height: 1024px;
+    height: 700px;
     margin: 2rem auto;
     border-radius: 15px;
     overflow: hidden;
 }
 
 .contact-form {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 17px;
+    font-family: "Alata", sans-serif;
+    font-size: 1.5rem;
     padding: 7rem;
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.7rem;
+    padding-top: 1rem;
 }
 
 .full-name input, .email input {
@@ -133,6 +138,7 @@ label {
 /* Not Yet Available */
 
 .not-yet-available {
+    font-family: "Alata", sans-serif;
     margin: 2rem 5rem;
     color: rgb(203, 142, 68);
     font-size: 30px;
