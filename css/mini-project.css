@@ -125,6 +125,19 @@ label {
     padding: 10px 0 300px 0;
 }
 
+/* form validation */
+
+.error {
+    color: rgb(177, 10, 10);
+    font-weight: 700;
+    display: none;
+}
+
+.error_field {
+    outline: none;
+    border: 2px solid red;
+}
+
 .button_send button {
     margin: 30px;
     background-color: rgb(42, 29, 21);
