@@ -4,16 +4,6 @@
 }
 
 @font-face {
-    font-family: "Roboto Mono - Italic";
-    src: url("../fonts/RobotoMono-Italic-VariableFont_wght.ttf");
-}
-
-@font-face {
-    font-family: "Robot Mono";
-    src: url("../fonts/RobotoMono-VariableFont_wght.ttf");
-}
-
-@font-face {
     font-family: "Alata";
     src: url("../fonts/Alata-Regular.ttf");
 }
@@ -47,7 +37,7 @@ header {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     margin-top: 2rem;
 }
 
@@ -55,7 +45,7 @@ li {
     list-style: none;
     padding: 1rem;
     font-family: "Alata", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .navbar a, header a {
@@ -72,7 +62,7 @@ li {
 .navbar button {
     padding: 1rem;
     font-family: "Alata", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(203, 142, 68);
 }
 
