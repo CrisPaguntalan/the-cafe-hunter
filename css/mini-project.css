@@ -96,7 +96,6 @@ img {
     display: flex;
     flex-direction: column;
     background-color: rgb(203, 142, 68);
-    background-size: contain;
     width: 736px;
     height: 700px;
     margin: 2rem auto;
@@ -124,6 +123,21 @@ label {
     height: 300px;
     padding: 10px 0 300px 0;
 }
+
+@media (max-width: 767px) {
+    .form-container-sm {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(203, 142, 68);
+        width: 500px;
+        height: 700px;
+        margin: 2rem auto;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+}
+
 
 /* form validation */
 
