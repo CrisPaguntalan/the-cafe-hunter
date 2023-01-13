@@ -110,9 +110,14 @@ li {
   margin-bottom: 16px;
 }
 
-.gallery_item figure {
-  margin: 0;
-  position: relative;
+.gallery_item a {
+    text-decoration: none;
+    color: rgb(203, 142, 68);
+    font-size: 14px;
+}
+
+.gallery_item a:hover {
+    text-decoration: underline;
 }
 
 .gallery_item img {
