@@ -1,7 +1,7 @@
-function goToHome() {
-    const homePage = document.getElementById("homepage");
-    homePage.scrollIntoView();
-}
+// function goToHome() {
+//     const homePage = document.getElementById("homepage");
+//     homePage.scrollIntoView();
+// }
 
 function goToCafe() {
     const cafePage = document.getElementById("cafePage");

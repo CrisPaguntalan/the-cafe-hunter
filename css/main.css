@@ -47,21 +47,16 @@ h1 {
 li {
     list-style: none;
     padding: 1rem;
+}
+
+.navigation_button {
     font-family: "Alata", sans-serif;
-    font-size: 1rem;
-}
-
-.navbar a, header a {
-    text-decoration: none;
     color: rgb(203, 142, 68);
+    border: none;
+    background: none;
 }
 
-header a {
-    text-decoration: none;
-    color: rgb(203, 142, 68);
-}
-
-.navbar a:hover, header a:hover {
+.navigation_button button:hover {
     color: rgb(203, 142, 68);
     text-decoration: underline;
 }
@@ -78,10 +73,6 @@ header a {
     text-decoration: underline;
 }
 
-.home_page {
-    height: 100vh;
-}
-
 .cafe_page {
     height: 100vh;
     background-color: rgba(203, 142, 68, .75);
@@ -92,30 +83,94 @@ header a {
     background-color: rgba(28, 168, 58, 0.75);
 }
 
+/* Gallery Page */
 .gallery_page {
-    height: 100vh;
-    background-color: rgba(68, 81, 203, 0.75);
-}
-
-/* Contact Page */
-.about_us_page {
-    height: 100vh;
-    background-color: rgba(203, 68, 185, 0.75);
-}
-
-
-
-/* Contact Page */
-.contact_us_page {
-    height: 100vh;
-    background-color: rgba(93, 68, 203, 0.75);
+    height: auto;
     padding-top: 20vh;
+    font-family: "Alata", sans-serif;
+    color: rgb(203, 142, 68);
+}
+
+.gallery_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    column-count: 4;
+}
+
+.gallery_start_item {
+    break-inside: avoid;
+    margin-bottom: 16px;
+    border-radius: 14px;
+    background-color: rgba(42, 29, 21);
+    padding: 5px;
+}
+
+.gallery_item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery_item figure {
+  margin: 0;
+  position: relative;
+}
+
+.gallery_item img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+/* About Us Page */
+.about_us_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alata", sans-serif;
+    color: rgb(203, 142, 68);
+    font-size: 14px;
+    text-align: center;
+    height: auto;
+}
+
+.about_container {
+    width: 70vw;
+    height: auto;
+    background-color: rgba(42, 29, 21, 0.878);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 20vh;
+}
+
+.about_sub {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.about_sub img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+/* Contact Us Page */
+.contact_us_page {
+    height: auto;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    background-color: rgb(203, 142, 68);
+    background-color: rgba(203, 142, 68, 0.912);
     width: 736px;
     height: 650px;
     margin: auto;
@@ -144,23 +199,7 @@ label {
     padding: 10px 0 300px 0;
 }
 
-@media (max-width: 767px) {
-    .form-container-sm {
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(203, 142, 68);
-        width: 500px;
-        height: 700px;
-        margin: 2rem auto;
-        border-radius: 15px;
-        overflow: hidden;
-    }
-
-}
-
-
 /* form validation */
-
 .error {
     color: rgb(177, 10, 10);
     font-weight: 700;
@@ -181,16 +220,31 @@ label {
     border-radius: 10px;
 }
 
+@media (max-width: 767px) {
+    .form-container-sm {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(203, 142, 68);
+        width: 500px;
+        height: 700px;
+        margin: 2rem auto;
+        border-radius: 15px;
+        overflow: hidden;
+    }
 
-/* Not Yet Available */
+    .gallery_container {
+        column-count: 2;
+    }
 
-.not-yet-available {
-    font-family: "Alata", sans-serif;
-    margin: 2rem 5rem;
-    color: rgb(203, 142, 68);
-    font-size: 30px;
+    .members {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
 }
 
-.not-yet-available h2 {
-    font-size: 55px;
-}
+
+
+
