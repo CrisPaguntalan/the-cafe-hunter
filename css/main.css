@@ -92,7 +92,7 @@ li {
 }
 
 .gallery_container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     column-count: 4;
 }
@@ -102,7 +102,7 @@ li {
     margin-bottom: 16px;
     border-radius: 14px;
     background-color: rgba(42, 29, 21);
-    padding: 5px;
+    padding: 10px;
 }
 
 .gallery_item {
@@ -225,7 +225,7 @@ label {
         display: flex;
         flex-direction: column;
         background-color: rgb(203, 142, 68);
-        width: 500px;
+        width: 450px;
         height: 700px;
         margin: 2rem auto;
         border-radius: 15px;
@@ -233,6 +233,7 @@ label {
     }
 
     .gallery_container {
+        max-width: 1000px;
         column-count: 2;
     }
 
