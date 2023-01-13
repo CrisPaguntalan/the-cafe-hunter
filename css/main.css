@@ -78,21 +78,76 @@ li {
     background-color: rgba(203, 142, 68, .75);
 }
 
+/* Notebook Page */
 .notebook_page {
-    height: 100vh;
+    height: auto;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     background-color: rgba(28, 168, 58, 0.75);
+    font-family: "Alata", sans-serif;
+    color: rgb(203, 142, 68);
+    background-color: rgba(42, 29, 21, 0.579);
+}
+
+.notebook_container {
+    max-width: 1500px;
+    margin: 0 auto;
+    column-count: 4;
+}
+
+.notebook_start_item {
+    break-inside: avoid;
+    margin-bottom: 16px;
+    border-radius: 14px;
+    background-color: rgb(203, 142, 68);
+    color: rgba(42, 29, 21);
+    padding: 25px;
+}
+
+.notebook_item {
+    break-inside: avoid;
+    margin-bottom: 16px;
+    padding: 10px;
+    background-color: white;
+    color: rgba(42, 29, 21);
+    border-radius: 14px;
+}
+
+.notebook_item:hover {
+    background-color: rgb(203, 142, 68);
+}
+
+.notebook_item img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.notebook_item a {
+    text-decoration: none;
+    color: rgba(42, 29, 21);
+    font-size: 14px;
+}
+
+.notebook_item a:hover {
+    text-decoration: underline;
+}
+
+.notebook_item h3 {
+    margin-top: 10px;
 }
 
 /* Gallery Page */
 .gallery_page {
     height: auto;
     padding-top: 20vh;
+    padding-bottom: 20px;
     font-family: "Alata", sans-serif;
     color: rgb(203, 142, 68);
+    background-color: rgba(42, 29, 21, 0.85);
 }
 
 .gallery_container {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     column-count: 4;
 }
@@ -101,8 +156,9 @@ li {
     break-inside: avoid;
     margin-bottom: 16px;
     border-radius: 14px;
-    background-color: rgba(42, 29, 21);
-    padding: 10px;
+    background-color: rgb(203, 142, 68);
+    color: rgba(42, 29, 21);
+    padding: 25px;
 }
 
 .gallery_item {
@@ -238,7 +294,13 @@ label {
     }
 
     .gallery_container {
-        max-width: 1000px;
+        max-width: 900px;
+        column-count: 2;
+    }
+
+    .notebook_container {
+        max-width: 900px;
+        margin: 0 auto;
         column-count: 2;
     }
 
