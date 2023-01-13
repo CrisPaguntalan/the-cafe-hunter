@@ -16,6 +16,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -29,6 +30,8 @@ body {
 }
 
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +54,11 @@ li {
 .navbar a, header a {
     text-decoration: none;
     color: rgb(203, 142, 68);
-    
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(203, 142, 68);
 }
 
 .navbar a:hover, header a:hover {
@@ -71,24 +78,47 @@ li {
     text-decoration: underline;
 }
 
-.box-red {
-    background-color: red;
-    height: 100px;
+.home_page {
+    height: 100vh;
 }
 
-img {
-    width: 100%;
+.cafe_page {
+    height: 100vh;
+    background-color: rgba(203, 142, 68, .75);
 }
 
-/* Contact Form Page */
+.notebook_page {
+    height: 100vh;
+    background-color: rgba(28, 168, 58, 0.75);
+}
+
+.gallery_page {
+    height: 100vh;
+    background-color: rgba(68, 81, 203, 0.75);
+}
+
+/* Contact Page */
+.about_us_page {
+    height: 100vh;
+    background-color: rgba(203, 68, 185, 0.75);
+}
+
+
+
+/* Contact Page */
+.contact_us_page {
+    height: 100vh;
+    background-color: rgba(93, 68, 203, 0.75);
+    padding-top: 20vh;
+}
 
 .form-container {
     display: flex;
     flex-direction: column;
     background-color: rgb(203, 142, 68);
     width: 736px;
-    height: 700px;
-    margin: 2rem auto;
+    height: 650px;
+    margin: auto;
     border-radius: 15px;
     overflow: hidden;
 }
