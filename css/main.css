@@ -75,12 +75,14 @@ li {
 
 .cafe_page {
     height: 100vh;
+    width: 100vw;
     background-color: rgba(203, 142, 68, .75);
 }
 
 /* Notebook Page */
 .notebook_page {
     height: auto;
+    width: 100vw;
     padding-top: 20vh;
     padding-bottom: 20vh;
     background-color: rgba(28, 168, 58, 0.75);
@@ -138,6 +140,7 @@ li {
 
 /* Gallery Page */
 .gallery_page {
+    width: 100vw;
     height: auto;
     padding-top: 20vh;
     padding-bottom: 20px;
@@ -192,6 +195,7 @@ li {
     font-size: 14px;
     text-align: center;
     height: auto;
+    width: 100vw;
 }
 
 .about_container {
@@ -313,6 +317,40 @@ label {
 
 }
 
+@media (max-width: 448px) {
+    .form-container-sm {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(203, 142, 68);
+        width: 400px;
+        height: 700px;
+        margin: 2rem auto;
+        border-radius: 15px;
+        overflow: hidden;
+    }
 
+    .about_container {
+        width: 90vw;
+    }
+    
+    .about_sub img {
+        width: 170px;
+        border-radius: 15px;
+    }
 
+    .gallery_container {
+        max-width: 420px;
+        column-count: 2;
+    }
+
+    .notebook_container {
+        max-width: 420px;
+        column-count: 2;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+}
 
