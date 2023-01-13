@@ -333,6 +333,11 @@ label {
 }
 
 @media (max-width: 767px) {
+
+    .cafe_container {
+        max-width: 710px;
+    }
+
     .form-container-sm {
         display: flex;
         flex-direction: column;
@@ -368,6 +373,21 @@ label {
 
     .cafe_container {
         max-width: 400px;
+    }
+  
+    .cafe_item a {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cafe_item img {
+        width: 100%;
+        border-radius: 14px;
+    }
+    
+    .article_title {
+        width: 100%;
+        margin: auto 0;
     }
 
     .form-container-sm {
