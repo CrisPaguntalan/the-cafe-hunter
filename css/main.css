@@ -37,6 +37,7 @@ header {
     align-items: center;
     background-color: rgb(42, 29, 21);
     color: rgb(223, 134, 24);
+    height: 170px;
 }
 
 h1 {
@@ -94,7 +95,7 @@ li {
     display: flex;
     height: auto;
     width: 100vw;
-    padding-top: 25vh;
+    padding-top: 200px;
     font-family: "Alata", sans-serif;
     color: rgb(223, 134, 24);
     font-size: 12px;
@@ -144,14 +145,14 @@ li {
 .notebook_page {
     height: auto;
     width: 100vw;
-    padding-top: 20vh;
+    padding-top: 200px;
     padding-bottom: 20vh;
     font-family: "Alata", sans-serif;
     color: rgb(223, 134, 24);
 }
 
 .notebook_container {
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     column-count: 4;
 }
@@ -201,7 +202,7 @@ li {
 .gallery_page {
     width: 100vw;
     height: auto;
-    padding-top: 20vh;
+    padding-top: 200px;
     padding-bottom: 20px;
     font-family: "Alata", sans-serif;
     color: rgb(223, 134, 24);
@@ -209,7 +210,7 @@ li {
 }
 
 .gallery_container {
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     column-count: 4;
 }
@@ -251,7 +252,7 @@ li {
     align-items: center;
     font-family: "Alata", sans-serif;
     color: rgb(223, 134, 24);
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     height: auto;
     width: 100vw;
@@ -270,7 +271,7 @@ li {
 .about_sub {
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .about_sub img {
@@ -287,7 +288,7 @@ li {
 /* Contact Us Page */
 .contact_us_page {
     height: auto;
-    padding-top: 20vh;
+    padding-top: 200px;
     padding-bottom: 15vh;
 }
 
@@ -296,7 +297,7 @@ li {
     flex-direction: column;
     background-color: rgba(223, 134, 24, 0.85);
     width: 736px;
-    height: 650px;
+    height: 520px;
     margin: auto;
     border-radius: 15px;
     overflow: hidden;
@@ -319,8 +320,8 @@ label {
 
 .message input {
     width: 100%;
-    height: 300px;
-    padding: 10px 0 300px 0;
+    height: 150px;
+    padding: 10px 0 200px 0;
 }
 
 /* form validation */
@@ -441,7 +442,7 @@ label {
 /* Article Pages */
 
 .article_body {
-    padding-top: 17vh;
+    padding-top: 200px;
     font-family: "Alata", sans-serif;
     font-size: 1.5rem;
     width: 100vw;
